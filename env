@@ -1,0 +1,20 @@
+# Environment Variables for Smart Retail Analytics System
+
+# Database Configuration (for future use)
+DATABASE_URL=sqlite:///./retail_analytics.db
+
+# API Configuration
+API_HOST=0.0.0.0
+API_PORT=8000
+DEBUG=True
+
+# ML Model Configuration
+MODEL_PATH=./models/
+DATA_PATH=./data/
+
+# Security (for production)
+SECRET_KEY=your-secret-key-here
+ACCESS_TOKEN_EXPIRE_MINUTES=30
+
+# External APIs (for future integrations)
+EXTERNAL_API_KEY=your-api-key-here

@@ -1,0 +1,20 @@
+{
+  "name": "smart-retail-analytics-frontend",
+  "version": "1.0.0",
+  "description": "Frontend dashboard for Smart Retail Analytics System",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server . -p 3000",
+    "build": "echo 'No build process needed for vanilla JS'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": ["retail", "analytics", "dashboard", "ml", "charts"],
+  "author": "Smart Retail Analytics Team",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0"
+  }
+}
